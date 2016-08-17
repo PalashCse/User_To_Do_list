@@ -1,0 +1,140 @@
+body{
+	
+	 font-family:Tox Typewriter Font;
+	 background: url('../img/body-bg.png') no-repeat center center fixed;
+	 background-size:cover;
+	 overflow-x:hidden;
+}
+@font-face{
+	
+	font-family:Tox Typewriter Font;
+	src: url('../fonts/Tox Typewriter.ttf');
+	font-family:BONESOUP Font;
+	src: url('../fonts/BONESOUP.ttf');
+	font-family:SWEETCORRECTION ROTH Font;
+	src: url('../fonts/SWEETCORRECTIONROTH 2.ttf');
+}
+.brand {
+	
+    color: white;
+    display: inherit;
+    font-family: Tox Typewriter Font;
+    font-size: 60px;
+    opacity: 0.6;
+    padding: 20px 1px 10px;
+    text-align: center;
+}
+/*Start Top Navbar*/
+.navbar-style {
+    background-color: #222222;
+    border: 1px solid white;
+    border-radius: 0;
+    margin: 0;
+    opacity: 0.7;
+    padding: 0;
+}
+.navbar-header{
+	
+	padding-top:7px;
+}
+.navbar-header a {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.navbar-btn-style{
+	
+	background-color:white;
+}
+.ib-color{
+	background-color:black;
+}
+
+.navbar-collapse ul li{
+	 padding:10px;	
+}
+.navbar-collapse ul li a {
+	
+	font-family:Tox Typewriter Font;
+    color:black;
+    background-color:#edeff1;
+	padding:10px;
+    margin: 0px;
+	font-size:14px;
+	font-weight:bold;
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #31302B;
+	-webkit-transition: all ease 0.8s;
+	-moz-transition: all ease 0.8s;
+	transition: all ease 0.8s;
+}
+
+.navbar-collapse ul li a:hover{
+	
+	box-shadow: inset 0 100px 0 0 #3072ab;
+    color: #FFF;
+	
+}
+.arrow_img{
+	 
+	 padding-left:10px;
+}
+
+.licon{
+	
+	padding-right:5px;
+}
+/*End Top Navbar*/
+
+/*Start Side Navbar*/
+.row-style{
+	
+	padding-top:10px;
+}
+.col1-style {
+	
+	padding:0px;
+    background-color: black;
+    opacity: 0.5;
+}
+.col1-style ul {
+	
+	padding-right:0px;
+}
+.col1-style ul li {
+	
+    background-color: white;
+	margin-top:2px;
+    padding: 0px;
+    text-align: center;
+}
+.col1-style ul li a{
+	
+    background-color: white;
+	font-weight:bold;
+	font-size:14px;
+}
+.nav li a:hover,.nav li a:focus{
+	
+	box-shadow: inset 0 100px 0 0 #3072ab;
+    color: #FFF;
+	
+}
+/*End Side Navbar*/
+
+.form-control{
+	
+	border:1px solid black;
+}
+.header_tdl-style{
+	
+	background-color:#46493f;
+}
+.navbar-nav{
+	
+	padding-left:50px;
+}

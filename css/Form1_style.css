@@ -1,0 +1,114 @@
+body{
+	
+	background-color:#8c9899;
+}
+.form-control{
+	
+	border:1px solid black;
+}
+.navbar-style{
+	background-color:#222222;
+}
+.navbar-ptn-style{
+	
+	background-color:white;
+}
+.ib-color{
+	background-color:black;
+}
+.panel-style{
+	
+	margin-top:80px;
+}
+.form-group input{
+	
+	margin-bottom:10px;
+}
+.panel-body-style{
+	
+	background-color:#EDEFF1;
+	padding:2px;
+	border:1px solid black;
+}
+
+@font-face{
+	
+	font-family:Tox Typewriter Font;
+	src: url('../fonts/Tox Typewriter.ttf');
+	font-family:BONESOUP Font;
+	src: url('../fonts/BONESOUP.ttf');
+	font-family:SWEETCORRECTION ROTH Font;
+	src: url('../fonts/SWEETCORRECTIONROTH 2.ttf');
+	
+	
+}
+.ph-style{
+	
+	font-family:BONESOUP Font;
+	font-weight:bold;
+	font-size:25px;
+	text-align:center;
+}
+.form-horizontal{
+	
+	margin-top:20px;
+	padding-left:50px;
+}
+.navbar-header{
+	
+	padding-top:10px;
+}
+.navbar-header a{
+	
+	font-family:BONESOUP Font;
+	color:white;
+	font-size:20px;
+	font-weight:bold;
+	
+	
+}
+.navbar-collapse ul {
+	
+	padding-right:0px;
+}
+.navbar-collapse ul li{
+	 padding:15px;	
+}
+.navbar-collapse ul li a {
+	
+	font-family:Tox Typewriter Font;
+    color:black;
+    background-color:#edeff1;
+	padding:10px;
+    margin: 0px;
+	font-size:14px;
+	font-weight:bold;
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #31302B;
+	-webkit-transition: all ease 0.8s;
+	-moz-transition: all ease 0.8s;
+	transition: all ease 0.8s;
+}
+
+.navbar-collapse ul li a:hover{
+	
+	 box-shadow: inset 0 100px 0 0 #3072ab;
+    color: #FFF;
+	
+}
+.ricon{
+	
+	padding-right:5px;
+}
+.licon{
+	
+	padding-right:5px;
+}
+.btn{
+	
+	padding-left:40px;
+	padding-right:40px;
+}
